@@ -13,11 +13,11 @@ $$("[id]").forEach(function(element) {
 });
 
 var messages = {
-	"semitransparent": "The background is semi-transparent, so the contrast ratio cannot be precise. Depending on what’s going to be underneath, it could be any of the following:",
-	"fail": "Fails WCAG 2.0 :-(",
-	"aa-large": "Passes AA for large text (above 18pt or bold above 14pt)",
-	"aa": "Passes AA level for any size text and AAA for large text (above 18pt or bold above 14pt)",
-	"aaa": "Passes AAA level for any size text"
+	"semitransparent": "Фон полупрозрачен, поэтому соотношение цветов невозможно определить точно. В зависимости от того что будет под объектом вероятны следующие варианты:",
+	"fail": "WCAG 2.0 не пройден :-(",
+	"aa-large": "Пройден уровень AA для большого текста (более 18pt или жирного начертания более 14pt)",
+	"aa": "Пройден уровень AA для любого текста и AAA для большого текста (более 18pt или жирного более 14pt)",
+	"aaa": "Пройден уровнеь AAA для текста любого размера"
 };
 
 var canvas = document.createElement("canvas"),
